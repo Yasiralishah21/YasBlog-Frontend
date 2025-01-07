@@ -1,0 +1,10 @@
+.PubLayout {
+    background-image:
+        "url('https://img.freepik.com/premium-vector/premium-background-gradient-black-white-tones_391563-1314.jpg')";
+    height: 100vh;
+    /* marginTop: "10px"; */
+    /* font-Size: "50px";  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+};

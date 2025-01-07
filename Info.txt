@@ -1,0 +1,30 @@
+1. Components have 2 files (PrivateNavbar and PublicNavbar) and 2 folders (Context and Layout).
+            -Private Navbar and PrivateLayout(in folder layout) will be showed only when user will sign up and login.
+            -Public Navbar and PublicLayout(in folder layout) will be showed to all users.
+
+2. PublicLayout has three components:
+            -Signup, Login and Forgot Password.
+
+3. PrivateLayout has seven components:
+            -Home
+            -CategoryList
+                -NewCategory
+                -UpdateCategory
+            -Postlist
+                -NewPost
+                -DetailPost
+                -UpdatePost
+            -Profile 
+            -Setting
+            -VerifyUser
+
+4. We made a signup form with just name, email, pass and confirmpass.
+5. We'll do it's validation.
+
+
+
+
+6. We did Auth Context. We knew how after login in we'll navigate to home page. we made Authcontext.jsx and made auth function there which returns information of user or null.
+            -IN SHORT WE TALKED ABOUT LOGIN FUNTIONALITY.
+7. We talked about funtionality of Logout. We just made a handlelogout funtion in PrivateNavbar.jsx and pass to Logout button in private navbar.
+8. We'll talk about Category Module Create new Category, update, delete etc.
